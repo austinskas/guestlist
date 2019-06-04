@@ -64,3 +64,16 @@ function reverseList() {
 }
 
 document.getElementById("reverse").addEventListener("click", reverseList); //funkcijos pavadinimas
+
+
+
+/*A-Z */
+
+function sortbyaz () {
+    let newArray = document.getElementById('insert').value;
+    guest.sort(newArray);
+    document.getElementById('insert').value ="";
+    document.getElementById("demo").innerHTML = sort;
+}
+
+document.getElementById("az").addEventListener("click", sortbyaz); //fun
